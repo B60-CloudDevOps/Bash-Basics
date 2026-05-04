@@ -15,6 +15,7 @@
 # How can we access it or how can we print it ? $varName
 
 a=10
+
 echo "Printing the value of a: $a"
 echo "Printing the value of a: ${a}"
 # Both $a or ${a} are yields the same result.
@@ -23,3 +24,11 @@ echo "Printing the value of a: ${a}"
 # In regular programming languages, we will get an exceptions
 
 echo "Printing the value of b: $b"
+# When you attempt to print the value of variable that is not defined, it refers as empty value.
+
+# echo deleting the data
+# rm -rf /data/$DATADIR -->  ( rm -rf /data/), when a variable is not declared
+
+# Dynamic Variables
+TODAYS_DATE="2026-05-04"
+echo "Todays date is $TODAYS_DATE"
