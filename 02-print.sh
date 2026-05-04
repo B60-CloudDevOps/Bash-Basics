@@ -10,3 +10,5 @@
 # \t: Moves the cursor to the next tab
 
 echo -e "hai \n hello \n welcome \n devsecops"
+
+echo -e "\t\t Hai \n Welcome"
