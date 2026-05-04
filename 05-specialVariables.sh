@@ -9,7 +9,7 @@
 
 # we can supply up to 9 args
 # bash scriptName firstArg  secondArg
-                    $1         $2
+#                    $1         $2
 
 firstVar=$1
 secondVar=$2
