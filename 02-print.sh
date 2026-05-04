@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo hai 
-echo hello
-echo welcome
-echo devsecops
+# echo hai 
+# echo hello
+# echo welcome
+# echo devsecops
 
 # Special Characters 
 # \n: Moves the cursor to the next line
 # \t: Moves the cursor to the next tab
 
-echo -e "hai \n \t hello \n \t welcome \n \t devsecops"
+echo -e "hai \n hello \n welcome \n devsecops"
