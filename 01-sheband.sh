@@ -6,3 +6,5 @@
 
 # How do I execute this script ?
 # bash scriptName
+
+echo "Hello World"
