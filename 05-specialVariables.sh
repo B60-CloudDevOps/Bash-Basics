@@ -5,8 +5,8 @@
 # Special Variables are $0 to $9, $* , $@, $# ,  $$
 # Can you create special variables on Bash ? 100% No , you can just use the special variables that are offered.
 # $0 is to print the script name 
-# $@ is to print the number arguments used in the script 
-# $* is to print all the arguments used in the script
+# $@ is to print the  arguments used in the script 
+# $@ is to print the number of arguments used in the script
 
 # we can supply up to 9 args
 # bash scriptName firstArg  secondArg
@@ -20,5 +20,5 @@ echo "I am printing the second argument $secondVar"
 
 echo "Name of the executed script is $0"
 
-echo "Arguments used in the script are $*"
+echo "Arguments used in the script are $#"
 echo "Arguments used in the script are $@"
