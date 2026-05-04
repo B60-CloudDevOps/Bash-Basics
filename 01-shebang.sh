@@ -8,3 +8,5 @@
 # bash scriptName
 
 echo "Hello World"
+
+echo "Lets learn bash scripting"
