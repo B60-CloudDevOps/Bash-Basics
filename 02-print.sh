@@ -9,4 +9,4 @@ echo devsecops
 # \n: Moves the cursor to the next line
 # \t: Moves the cursor to the next tab
 
-echo "hai \n hello \n welcome \n devsecops"
+echo -e "hai \n hello \n welcome \n devsecops"
