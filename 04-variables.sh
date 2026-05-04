@@ -15,4 +15,6 @@
 # How can we access it or how can we print it ? $varName
 
 a=10
-echo "Printing the value of a"
+echo "Printing the value of a: $a"
+echo "Printing the value of a: ${a}"
+# Both $a or ${a} are yields the same result.
