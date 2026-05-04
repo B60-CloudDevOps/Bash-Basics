@@ -37,7 +37,7 @@ echo "Printing the value of b: $b"
 TODAYS_DATE=$(date +%F)
 echo "Todays date is $TODAYS_DATE"
 
-echo "Number of logged sessions: $(who | wc -l)"
+echo "Number of logged sessions:\e[32m $(who | wc -l) \e[0m"
 
 
 # In a script or in a repo of scripts, we need to follow standards for the variables
