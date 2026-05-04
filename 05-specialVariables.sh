@@ -23,3 +23,6 @@ echo "Name of the executed script is $0"
 
 echo "Arguments used in the script are $#"
 echo "Arguments used in the script are $@"
+
+# How do we know whether the previous command was executed successfully or not ?
+# To know the success status of the previous, we need to understand the exit codes
