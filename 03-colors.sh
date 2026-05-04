@@ -22,4 +22,4 @@ echo -e "\e[35m This is magenta color \e[0m"
 # Printing with background colors
 # echo -e "\e[backGroundColor;ForeGroundCOLORm Printing Color \e[0m"
 
-echo -e "\e[43;31m rinting Red On Yellow \e[0m"
+echo -e "\e[43;31m Printing Red On Yellow \e[0m"
