@@ -13,4 +13,9 @@
 # echo -e "\e[COLORCODEm I am printing a color \e[0m"
 
 
-echo -e "\e[35m This is purple color \e[0m"
+echo -e "\e[36m This is cyan color \e[0m"
+echo -e "\e[31m This is red color \e[0m"
+echo -e "\e[32m This is green color \e[0m"
+echo -e "\e[33m This is yellow color \e[0m"
+echo -e "\e[34m This is blue color \e[0m"
+echo -e "\e[35m This is magenta color \e[0m"
