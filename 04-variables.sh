@@ -36,3 +36,13 @@ echo "Printing the value of b: $b"
 
 TODAYS_DATE=$(date +%F)
 echo "Todays date is $TODAYS_DATE"
+
+echo "Number of logged sessions: $(who | wc -l)"
+
+
+# In a script or in a repo of scripts, we need to follow standards for the variables
+
+# VARNAME: Upper Case
+# varname: Lower Case
+# varName: Camse Case
+# var_name: Snake Case
