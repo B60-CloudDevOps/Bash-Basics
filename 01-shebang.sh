@@ -13,6 +13,6 @@ echo "Lets learn bash scripting"
 sleep 3
 echo "End of the script"
 
-echo "Script Name: $# Completed"
+echo "Script Name: $0 Completed"
 
-# $# is a special chacacter to print the name of the script
+# $0 is a special chacacter to print the name of the script
