@@ -30,5 +30,9 @@ echo "Printing the value of b: $b"
 # rm -rf /data/$DATADIR -->  ( rm -rf /data/), when a variable is not declared
 
 # Dynamic Variables
-TODAYS_DATE="2026-05-04"
+# TODAYS_DATE="2026-05-04"
+# echo "Todays date is $TODAYS_DATE"
+# This concept is called hardCoding and I want the latest info all the time, what's when ou need to use the below logic.
+
+TODAYS_DATE=$(date +%F)
 echo "Todays date is $TODAYS_DATE"
