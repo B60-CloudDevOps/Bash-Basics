@@ -18,3 +18,8 @@ a=10
 echo "Printing the value of a: $a"
 echo "Printing the value of a: ${a}"
 # Both $a or ${a} are yields the same result.
+
+# What will happen, when I try or access a variable that's not declared ?
+# In regular programming languages, we will get an exceptions
+
+echo "Printing the value of b: $b"
