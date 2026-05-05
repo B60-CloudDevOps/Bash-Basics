@@ -6,7 +6,7 @@ ACTION="start"
 
 # == operator is used for strings
 # -eq operator is used for numbers 
-if [ "$ACTION" == "start"]
+if [ "$ACTION" == "start"]; then 
 
     echo "Action is start"
 
