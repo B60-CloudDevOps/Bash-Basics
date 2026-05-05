@@ -49,4 +49,5 @@ stat
 sleep 3
 
 # How can I call a function from another script or file ?
+source common.sh   # This is how we import the functions from another file
 common_fun
