@@ -15,3 +15,11 @@ echo "Demo On For Loop "
 for i in 1 2 3 4 5 6; do 
     echo $i 
 done 
+
+echo "Demo On While Loop:"
+count=1
+
+while [ $count -le 10 ] do 
+    echo "Count is $count"
+    ((count++))
+done 
