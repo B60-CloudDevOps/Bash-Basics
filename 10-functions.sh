@@ -15,3 +15,23 @@
 # How can we make a specific alias command active all the time ?
 # /home/user/.bash_profile
 # Everytime the user signins in that will be executed
+
+# Whenever we have a repetitive piece / block of code, we can enclose them in a function and can call them n number of times!
+
+# How to delcate a function ?
+
+# f() {
+#     echo "This is a demo on function"
+#     echo "Function f started"
+#     sleep 1
+#     echo "Function f completed"
+# }
+# How to call ?
+#  f 
+
+stat() {
+    echo "beginning of stat funciton . . . ."
+    echo "Todays date is $(date +%F)"
+    echo "Number of loggied in users is $(who |wc -l)"
+    echo "stat funciton completed"
+}
