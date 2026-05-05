@@ -29,9 +29,13 @@
 # How to call ?
 #  f 
 
+# Declaring a function
 stat() {
     echo "beginning of stat funciton . . . ."
     echo "Todays date is $(date +%F)"
     echo "Number of loggied in users is $(who |wc -l)"
     echo "stat funciton completed"
 }
+
+# Calling a function
+stat
