@@ -19,7 +19,8 @@ done
 echo "Demo On While Loop:"
 count=1
 
-while [ $count -le 13 ] 
+# while [ $count -le 13 ] 
+while true
 do  
     echo "Count is $count"
     ((count++))
