@@ -47,3 +47,6 @@ sleep 2
 
 stat 
 sleep 3
+
+# How can I call a function from another script or file ?
+common_fun
