@@ -2,7 +2,7 @@
 
 echo "Demo On If Conditions"
 
-ACTION="start"
+ACTION="end"
 
 # == operator is used for strings
 # -eq operator is used for numbers 
