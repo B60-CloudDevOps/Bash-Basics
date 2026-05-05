@@ -35,6 +35,7 @@ stat() {
     echo "Todays date is $(date +%F)"
     echo "Number of loggied in users is $(who |wc -l)"
     echo "stat funciton completed"
+    echo -e "_______________________________________ \n \n"
 }
 
 # Calling a function
