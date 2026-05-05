@@ -16,13 +16,23 @@ ACTION="$1"
 
 
 # Demo On IF ELSE Condition;
+# if [ "$ACTION" == "start" ]; then 
 
+#     echo "Action is start"
+
+# else
+
+#     echo "Only approved value is start"
+
+# fi
+
+# Demo On ELSE IF Condition;
 if [ "$ACTION" == "start" ]; then 
-
     echo "Action is start"
-
+elif [ "$ACTION" == "stop" ]; then 
+    echo "Action is start"
+elif [ "$ACTION" == "restart" ]; then 
+    echo "Action is restart"
 else
-
-    echo "Only approved value is start"
-
+    echo "Only approved values are start or stop or restart only"
 fi
