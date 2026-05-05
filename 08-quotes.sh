@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# ""   : Double Quotes 
+# ''   : Single Quotes   : # Single Quotes Always Eliminates The Power Of The Special Variable 
+
+a=10
+echo "Printing the value of a ${a}"
