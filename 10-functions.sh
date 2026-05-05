@@ -14,4 +14,4 @@
 
 # How can we make a specific alias command active all the time ?
 # /home/user/.bash_profile
-# Everytime the user signins in that will be executed.
+# Everytime the user signins in that will be executed
